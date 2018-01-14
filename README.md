@@ -1,1 +1,1 @@
-React starter boilerplate for all the project in Grit which require a React web app.
+React starter boilerplate for all the projects in Grit which require a React web app.
