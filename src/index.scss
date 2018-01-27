@@ -1,0 +1,30 @@
+@import './styles/reset.scss';
+@import './styles/flexbox.scss';
+
+@font-face {
+  font-family: 'Futura';
+  src: url('assets/fonts/futura.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
