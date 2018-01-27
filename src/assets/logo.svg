@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Vesko logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.5171654%" y1="3.72561223%" x2="98.5362374%" y2="98.045928%" id="linearGradient-1">
+            <stop stop-color="#002DF0" offset="0%"></stop>
+            <stop stop-color="#0014DD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.635563%" y1="51.5227735%" x2="100%" y2="51.522772%" id="linearGradient-2">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.569293478" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="84.6769231 0 64.9846154 36.4694292 43.3230769 0 0 0 36.7910627 65.2610837 91.2089373 65.2610837 128 0"></polygon>
+        <polygon id="path-4" points="39.8222222 73.773399 64.000701 119.172414 88.1777778 73.773399"></polygon>
+    </defs>
+    <g id="Resources" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vesko-logo">
+            <g id="Logo" transform="translate(0.000000, 4.000000)">
+                <g id="Group">
+                    <g id="Fill-1">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                        <use fill-opacity="0.24" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Fill-3">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+                        <use fill-opacity="0.24" fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
