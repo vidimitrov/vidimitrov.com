@@ -1,16 +1,48 @@
 .app {
   font-family: 'Futura';
   height: 100%;
-  background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 20%,rgba(0,0,0,0.4)) 100%, 
-              linear-gradient(135deg,rgba(0,45,240, 1), rgba(0,20,221, 0.8)),
-              url(../../assets/vidimitrov.png) no-repeat bottom 0px right 0px/70% auto fixed;
-  background-blend-mode: multiply;
+}
+
+.resume {
+  padding: 15px;
+  color: #fff;
+
+  .sub-header {
+    margin: 40px 0px 30px;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0px;
+    }
+  }
+
+  .bio {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .sub-footer {
+    margin: 40px 0px 0px;
+    line-height: 1.5em;
+  }
+
+  a {
+    color: #FFEC00
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .app {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 20%,rgba(0,0,0,0.4)) 100%, 
+              linear-gradient(135deg,rgba(0,45,240, 1), rgba(0,20,221, 0.8)),
+              url(../../assets/vidimitrov.png) no-repeat bottom 0px right 0px/70% auto fixed;
+    background-blend-mode: multiply;
 
     .header {
       background-color: #fff;
@@ -49,6 +81,10 @@
   .app {
     display: flex;
     flex-direction: row;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 20%,rgba(0,0,0,0.4)) 100%, 
+              linear-gradient(135deg,rgba(0,45,240, 1), rgba(0,20,221, 0.8)),
+              url(../../assets/vidimitrov.png) no-repeat bottom 0px right 0px/40% auto fixed;
+    background-blend-mode: multiply;
 
     .header {
       background-color: #fff;
@@ -77,37 +113,26 @@
         background: #000;
       }
     }
-  } 
-}
 
-.resume {
-  padding: 15px;
-  color: #fff;
+    .resume {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 100px;
+      max-width: 550px;
 
-  .sub-header {
-    margin: 40px 0px 30px;
+      .sub-header {
+        margin: 40px 0px 30px;
 
-    h2 {
-      font-size: 1.5em;
+        h2 {
+          font-size: 2.5em;
+        }
+
+        h1 {
+          font-size: 3.5em;
+          margin: 10px 0px;
+        }
+      }
     }
-
-    h1 {
-      font-size: 2.5em;
-      margin: 10px 0px;
-    }
-  }
-
-  .bio {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
-
-  .sub-footer {
-    margin: 40px 0px 0px;
-    line-height: 1.5em;
-  }
-
-  a {
-    color: #FFEC00
   }
 }

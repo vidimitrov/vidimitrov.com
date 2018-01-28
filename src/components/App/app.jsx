@@ -26,7 +26,7 @@ const Resume = () => (
       about hacking and tinkering with IoT devices.
     </h3>
     <h3 className="sub-footer">
-      You can find my open-source projects on <a href="https://github.com/vidimitrov">Github</a> or check my <a href="https://www.linkedin.com/in/vidimitrov/">LinkedIn</a> profile.
+      You can find my open-source projects on <a href="https://github.com/vidimitrov">Github</a>, check my <a href="https://www.linkedin.com/in/vidimitrov/">LinkedIn</a> profile or read some of my articles at <a href="http://jsoutof.space">Out Of Space JS</a>.
     </h3>
   </section>
 );
