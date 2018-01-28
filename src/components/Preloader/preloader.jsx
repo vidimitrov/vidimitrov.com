@@ -33,7 +33,7 @@ class Preloader extends Component {
       }
 
       return null;
-    }, 20);
+    }, 10);
   }
 
   componentWillUnmount() {

@@ -4,10 +4,12 @@ import Preloader from '../Preloader/preloader';
 import './app.css';
 
 const Bar = () => (
-  <header className="header flex flex-row vertical-center">
+  <header className="header">
     <img className="logo" src={logo} alt="logo" />
-    <h1 className="title flex flex-1 end">VESELIN DIMITROV</h1>
-    <hr className="dash" />
+    <div className="title">
+      <h1>VESELIN DIMITROV</h1>
+      <hr className="dash" />
+    </div>
   </header>
 );
 
