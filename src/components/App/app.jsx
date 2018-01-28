@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.svg';
+import Preloader from '../Preloader/preloader';
 import './app.css';
 
 const Bar = () => (
@@ -30,6 +31,7 @@ const Resume = () => (
 
 const App = () => (
   <div className="app">
+    <Preloader />
     <Bar />
     <Resume />
   </div>
